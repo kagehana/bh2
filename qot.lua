@@ -272,4 +272,4 @@ end)
 replicated.PlayerEvents.ManageWeapon:InvokeServer(true)
 
 -- queue execution
-queue_on_teleport(game:HttpGet(''))
+queue_on_teleport(game:HttpGet('https://raw.githubusercontent.com/kagehana/bh2/refs/heads/main/qot.lua'))
