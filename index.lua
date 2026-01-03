@@ -517,7 +517,7 @@ if respawns then
             local function OnRenderStep()
                 local pivpos = char:GetPivot().Position
 
-                -- Camera just above player's head (5 studs up)
+                -- camera just above player's head (5 studs up)
                 camera.CFrame = CFrame.lookAt(
                     pivpos + Vector3.new(0, 5, 0.5),
                     pivpos
@@ -628,7 +628,7 @@ automation:toggle({
                     local mobRoot = ctarget.HumanoidRootPart
                     local mobPos  = mobRoot.Position
                     
-                    -- Closer camera view
+                    -- closer camera view
                     camera.CFrame = CFrame.lookAt(
                         mobPos + Vector3.new(0, 10, 15),
                         mobPos
